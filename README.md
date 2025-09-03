@@ -19,35 +19,8 @@ SeatAllocator is a project designed to efficiently allocate seats for various sc
    ```bash
    cd SeatAllocator
    ```
-3. Install dependencies (if any):
-   ```bash
-   # Example for Python projects
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Modify the input files as per your seat allocation requirements. Run the main allocation script:
-
-```bash
-python allocate_seats.py
-```
 
 The output will be an allocation map showing which participant is assigned to which seat.
-
-## Example
-
-Suppose you have a list of students and a set of available seats. The script will output a mapping like:
-
-| Student Name | Room | Seat Number |
-|--------------|------|-------------|
-| Alice        | A    | 1           |
-| Bob          | A    | 2           |
-| Carol        | B    | 1           |
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
